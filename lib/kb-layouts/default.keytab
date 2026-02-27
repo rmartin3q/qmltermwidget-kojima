@@ -33,7 +33,7 @@ key Return-Shift+NewLine : "\r\n"
 key Return+Shift         : "\EOM"
 
 
-##############    Kojima EDIT    #################
+##############    Kojima EDIT    ##################
 #
 #    Modified to make defult backspace behavior compliant with modern ASCII 
 #
@@ -44,7 +44,7 @@ key Backspace +Control : "\b"
 # Match xterm behaviour: Backspace sends '^?' when Control is NOT pressed
 key Backspace -Control : "\x7f"
 
-##############    Kojima EDIT    #################
+##############    Kojima EDIT    ##################
 
 
 
